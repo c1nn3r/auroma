@@ -18,7 +18,7 @@ const portfolioItems: PortfolioItem[] = [
   { 
     id: "2", 
     caption: "Lonely", 
-    genre: "R&B",
+    genre: "Sync",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848034&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
   },
   { 
@@ -36,11 +36,11 @@ const portfolioItems: PortfolioItem[] = [
   { 
     id: "5", 
     caption: "Dettune - Madonna", 
-    genre: "Sync",
+    genre: "Trap/Hiphop",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848121&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
   },
   { 
-    id: "6", 
+    id: "6",  
     caption: "Scent of You (Fragrance Ad)", 
     genre: "Commercial",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977850023&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -49,13 +49,13 @@ const portfolioItems: PortfolioItem[] = [
     id: "7", 
     caption: "Party Prince - Better", 
     genre: "RnB",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2183308775&color=%23312e29&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2183308775&color=%23312e29&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
 "
   },
 ];
 
 export default function Portfolio() {
-  return (
+  return 
     <section id="work" className="w-full py-16 md:py-24 bg-muted/20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-12">
