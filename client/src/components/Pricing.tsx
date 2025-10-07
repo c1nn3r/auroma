@@ -13,14 +13,14 @@ const pricingTiers: PricingTier[] = [
   {
     title: "Starter Track",
     price: "$25",
-    description: "For artists on the grind — clean, simple, and ready to drop.",
+    description: "For artists on the grind, clean, simple, and ready to drop.",
     features: [
       "1 Beat from the Auroma library",
       "Basic vocal-over-beat mix",
       "Single stereo master",
       "MP3 delivery"
     ],
-    license: "No strings attached — just credit Auroma."
+    license: "No strings attached, just credit Auroma."
   },
   {
     title: "Pro Demo",
@@ -33,7 +33,7 @@ const pricingTiers: PricingTier[] = [
       "1 round of revisions",
       "WAV delivery"
     ],
-    license: "Use it anywhere — just credit Auroma."
+    license: "Use it anywhere, just credit Auroma."
   },
   {
     title: "Radio Ready",
@@ -46,7 +46,7 @@ const pricingTiers: PricingTier[] = [
       "2 rounds of revisions",
       "WAV + Trackouts delivery"
     ],
-    license: "Unlimited use — just credit Auroma."
+    license: "Unlimited use, just credit Auroma."
   }
 ];
 
@@ -99,7 +99,7 @@ export default function Pricing() {
           
           <div className="text-center">
             <p className="text-sm text-muted-foreground" data-testid="text-pricing-note">
-              Pay securely via PayPal or crypto. No subscriptions, no hidden fees — just the music.
+              Pay securely via PayPal or crypto. No subscriptions, no hidden fees, just the music.
             </p>
           </div>
         </div>
