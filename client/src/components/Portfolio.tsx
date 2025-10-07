@@ -11,46 +11,45 @@ interface PortfolioItem {
 const portfolioItems: PortfolioItem[] = [
   { 
     id: "1", 
-    caption: "The Jacks (Jackboys Type Beat)", 
-    genre: "Rap",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977842636&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    caption: "Can't Get Enough", 
+    genre: "EDM",
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183309023&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "2", 
     caption: "Lonely", 
     genre: "R&B",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848034&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183309347&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "3", 
-    caption: "Can't Get Enough", 
+    caption: "Billie Eilish - CHIHIRO (Auroma Remix)", 
     genre: "EDM",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848016&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183314331&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "4", 
-    caption: "Billie Eilish - Chihiro (Auroma Remix)", 
-    genre: "EDM",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848049&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    caption: "Dettune - Madonna (Official Audio)", 
+    genre: "Sync",
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183314551&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "5", 
-    caption: "Dettune - Madonna", 
-    genre: "Sync",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977848121&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    caption: "The Jacks (Jackboys Type Beat)", 
+    genre: "Rap",
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183314951&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "6", 
-    caption: "Scent of You (Fragrance Ad)", 
+    caption: "Scent of You (A Fragrance Ad)", 
     genre: "Commercial",
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977850023&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183315779&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
     id: "7", 
     caption: "Party Prince - Better", 
     genre: "Rap",
-    // ✅ this is the *working* embed link you tested
-    soundcloudUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2183308775&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183308775&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
 ];
 
