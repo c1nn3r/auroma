@@ -18,7 +18,7 @@ const portfolioItems: PortfolioItem[] = [
   { 
     id: "2", 
     caption: "Lonely", 
-    genre: "R&B",
+    genre: "Sync",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183309347&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
@@ -30,7 +30,7 @@ const portfolioItems: PortfolioItem[] = [
   { 
     id: "4", 
     caption: "Dettune - Madonna (Official Audio)", 
-    genre: "Sync",
+    genre: "Trap",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183314551&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
   { 
@@ -48,7 +48,7 @@ const portfolioItems: PortfolioItem[] = [
   { 
     id: "7", 
     caption: "Party Prince - Better", 
-    genre: "Rap",
+    genre: "RnB",
     soundcloudUrl: "https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/2183308775&color=%23312e29&auto_play=false&show_comments=true&visual=true"
   },
 ];
