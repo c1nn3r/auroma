@@ -13,40 +13,40 @@ const pricingTiers: PricingTier[] = [
   {
     title: "Starter Track",
     price: "$25",
-    description: "Perfect for demos and getting started",
+    description: "For artists on the grind — clean, simple, and ready to drop.",
     features: [
-      "1 Stock Beat from library",
-      "Basic Master (vocal-over-beat)",
+      "1 Beat from the Auroma library",
+      "Basic vocal-over-beat mix",
       "Single stereo master",
       "MP3 delivery"
     ],
-    license: "Up to 5,000 streams/sales • Credit required"
+    license: "No strings attached — just credit Auroma."
   },
   {
     title: "Pro Demo",
     price: "$50",
-    description: "Professional quality for serious artists",
+    description: "For serious artists who want pro quality without breaking the bank.",
     features: [
-      "1 Pre-Mix Beat with EQ & balance",
-      "2-Track Mix & Master",
-      "Pro vocal and beat balance",
+      "1 Pre-mixed Beat with EQ & balance",
+      "Full 2-Track Mix & Master",
+      "Vocal and beat fine-tuning",
       "1 round of revisions",
       "WAV delivery"
     ],
-    license: "Up to 100,000 streams/sales • 1 music video • Credit required"
+    license: "Use it anywhere — just credit Auroma."
   },
   {
     title: "Radio Ready",
     price: "$100",
-    description: "Unlimited commercial use",
+    description: "For artists who want to sound major. Full control. Full quality.",
     features: [
-      "1 Custom-Adjusted Beat (tempo/melody)",
-      "Full Stem Mix & Master (8 vocal stems)",
-      "De-essing & light tuning",
+      "1 Custom-tweaked Beat (tempo or melody)",
+      "Full Stem Mix & Master (up to 8 vocal stems)",
+      "Light tuning & de-essing",
       "2 rounds of revisions",
       "WAV + Trackouts delivery"
     ],
-    license: "Unlimited streams/sales • Radio & TV • Credit required"
+    license: "Unlimited use — just credit Auroma."
   }
 ];
 
@@ -59,11 +59,14 @@ export default function Pricing() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl" data-testid="text-pricing-title">
               Pricing
             </h2>
+            <p className="text-muted-foreground text-sm md:text-base">
+              Affordable beats. Real quality. No contracts. Just credit <span className="font-semibold">Auroma</span>.
+            </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {pricingTiers.map((tier) => (
-              <Card key={tier.title} className="flex flex-col" data-testid={`card-pricing-${tier.title.toLowerCase().replace(/\s/g, '-')}`}>
+              <Card key={tier.title} className="flex flex-col border border-border hover:border-primary/50 transition-all" data-testid={`card-pricing-${tier.title.toLowerCase().replace(/\s/g, '-')}`}>
                 <CardHeader className="text-center pb-6">
                   <CardTitle className="text-2xl mb-2" data-testid={`text-tier-${tier.title.toLowerCase().replace(/\s/g, '-')}`}>
                     {tier.title}
@@ -96,7 +99,7 @@ export default function Pricing() {
           
           <div className="text-center">
             <p className="text-sm text-muted-foreground" data-testid="text-pricing-note">
-              Payment accepted via PayPal or cryptocurrency. Fast turnaround on all projects.
+              Pay securely via PayPal or crypto. No subscriptions, no hidden fees — just the music.
             </p>
           </div>
         </div>

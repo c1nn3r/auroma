@@ -44,12 +44,12 @@ export default function Contact() {
                     data-testid="button-discord"
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
-                    Discord: @svet.thevet
+                    Discord
                   </Button>
                 </div>
                 
                 <p className="text-xs text-muted-foreground pt-4">
-                  Email: detgenesis@gmail.com
+                    Lets make good music!
                 </p>
               </div>
             </CardContent>
