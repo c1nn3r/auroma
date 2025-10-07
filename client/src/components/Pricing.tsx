@@ -75,7 +75,7 @@ export default function Pricing() {
               Pricing
             </h2>
             <p className="text-muted-foreground text-sm md:text-base">
-              Affordable beats. Real quality. No contracts. Just credit{" "}
+              Affordable beats. High quality. No contracts. Just credit{" "}
               <span className="font-semibold">Auroma</span>.
             </p>
           </div>
