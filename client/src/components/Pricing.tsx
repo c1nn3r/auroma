@@ -146,7 +146,7 @@ export default function Pricing() {
               data-testid="text-pricing-note"
             >
               Pay securely via PayPal or crypto. No subscriptions, no hidden
-              fees, just the music.
+              fees.
             </p>
           </div>
         </div>
