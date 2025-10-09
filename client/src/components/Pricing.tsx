@@ -145,7 +145,7 @@ export default function Pricing() {
               className="text-sm text-muted-foreground"
               data-testid="text-pricing-note"
             >
-              Pay securely via PayPal or crypto. No subscriptions, no hidden
+              Pay securely via PayPal or crypto(20% off when paying in crypto). No subscriptions, no hidden
               fees.
             </p>
           </div>

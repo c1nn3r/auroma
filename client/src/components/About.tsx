@@ -22,7 +22,9 @@ export default function About() {
               About
             </h2>
             <p className="text-lg text-foreground/90 leading-relaxed" data-testid="text-about-bio">
-              I’m Auroma. I make, mix, and shape music for artists who care about sound. I’ve worked across rap, R&B, EDM,Rock and whatever else felt right at the moment. I’m down to work on anything as long as it’s interesting,I like projects that spark something in my head, make this whole thing fun for me. My whole thing is making songs feel good and polished without it costing a fortune(have you seen the price of eggs these days?). I take every project seriously, because I know what it’s like trying to get your music to sound the way it does in your head.
+              I’m Auroma. I make, mix, and shape music for artists who care about sound. I’ve worked across rap, R&B, EDM,Rock and whatever else felt right at the moment.
+               I’m down to work on anything as long as it’s interesting,I like projects that spark something in my head, make this whole thing fun for me. My whole thing is making songs feel good and polished without it costing a fortune(have you seen the price of eggs these days?). 
+               I take every project seriously, because I know what it’s like trying to get your music to sound the way it does in your head.
             </p>
           </div>
         </div>
